@@ -1,0 +1,133 @@
+{
+  "NLP_Core": {
+    "description": "Core NLP tasks: parsing, tagging, syntax",
+    "keywords": [
+      "parsing",
+      "syntax",
+      "morphology",
+      "tagging",
+      "pos",
+      "dependency",
+      "constituency"
+    ]
+  },
+  "Language_Models": {
+    "description": "Language modeling, transformers, LLMs",
+    "keywords": [
+      "language model",
+      "transformer",
+      "bert",
+      "gpt",
+      "llm",
+      "pretrain",
+      "attention"
+    ]
+  },
+  "Machine_Translation": {
+    "description": "Neural and statistical machine translation",
+    "keywords": [
+      "translation",
+      "multilingual",
+      "cross-lingual",
+      "nmt",
+      "parallel corpus"
+    ]
+  },
+  "Sentiment_Opinion": {
+    "description": "Sentiment analysis, opinion mining",
+    "keywords": [
+      "sentiment",
+      "opinion",
+      "emotion",
+      "stance",
+      "aspect",
+      "polarity"
+    ]
+  },
+  "QA_Dialogue": {
+    "description": "Question answering and dialogue systems",
+    "keywords": [
+      "question answering",
+      "qa",
+      "dialogue",
+      "conversational",
+      "chatbot",
+      "response"
+    ]
+  },
+  "Information_Extraction": {
+    "description": "NER, relation extraction, event extraction",
+    "keywords": [
+      "ner",
+      "named entity",
+      "relation extraction",
+      "event",
+      "knowledge graph",
+      "triple"
+    ]
+  },
+  "Text_Generation": {
+    "description": "Summarization, text generation, paraphrasing",
+    "keywords": [
+      "generation",
+      "summarization",
+      "summary",
+      "paraphrase",
+      "simplification"
+    ]
+  },
+  "Vision_Language": {
+    "description": "Multimodal, vision-language tasks",
+    "keywords": [
+      "multimodal",
+      "vision",
+      "image",
+      "visual",
+      "caption",
+      "vqa"
+    ]
+  },
+  "Speech_Audio": {
+    "description": "Speech recognition and audio processing",
+    "keywords": [
+      "speech",
+      "audio",
+      "acoustic",
+      "asr",
+      "tts",
+      "spoken"
+    ]
+  },
+  "ML_Methods": {
+    "description": "General ML methods applied to NLP",
+    "keywords": [
+      "neural network",
+      "deep learning",
+      "reinforcement",
+      "meta-learning",
+      "few-shot"
+    ]
+  },
+  "Ethics_Bias": {
+    "description": "Fairness, bias, ethics in NLP",
+    "keywords": [
+      "bias",
+      "fairness",
+      "ethics",
+      "toxicity",
+      "hate speech",
+      "misinformation"
+    ]
+  },
+  "Applications": {
+    "description": "Domain-specific applications",
+    "keywords": [
+      "medical",
+      "clinical",
+      "legal",
+      "financial",
+      "scientific",
+      "biomedical"
+    ]
+  }
+}

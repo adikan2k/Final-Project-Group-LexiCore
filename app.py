@@ -49,8 +49,8 @@ class EmbeddingClassifier:
 
 
 @st.cache_resource
-def get_explainer(classifier_wrapper):
-    return LimeTextExplainer(class_names=classifier_wrapper.classes_)
+def get_explainer(_classifier_wrapper):
+    return LimeTextExplainer(class_names=_classifier_wrapper.classes_)
 
 
 

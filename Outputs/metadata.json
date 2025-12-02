@@ -1,0 +1,38 @@
+{
+  "created": "2025-12-02T18:27:52.602329",
+  "n_papers": 22522,
+  "embeddings": {
+    "word2vec": {
+      "file": "word2vec_embeddings.npy",
+      "shape": [
+        22522,
+        100
+      ],
+      "model": "gensim Word2Vec"
+    },
+    "sbert_abstract": {
+      "file": "sbert_abstract_embeddings.npy",
+      "shape": [
+        22522,
+        384
+      ],
+      "model": "all-MiniLM-L6-v2"
+    },
+    "sbert_title": {
+      "file": "sbert_title_embeddings.npy",
+      "shape": [
+        22522,
+        384
+      ],
+      "model": "all-MiniLM-L6-v2"
+    },
+    "scibert": {
+      "file": "scibert_embeddings.npy",
+      "shape": [
+        22522,
+        768
+      ],
+      "model": "allenai-specter"
+    }
+  }
+}

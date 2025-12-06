@@ -1,0 +1,49 @@
+{
+  "total_test_samples": 4505,
+  "misclassified_count": 1474,
+  "error_rate": 0.32719200887902333,
+  "top_confusion_pairs": [
+    [
+      "Applications \u2192 ML_Methods",
+      517
+    ],
+    [
+      "Language_Models \u2192 ML_Methods",
+      238
+    ],
+    [
+      "ML_Methods \u2192 Language_Models",
+      225
+    ],
+    [
+      "Applications \u2192 Language_Models",
+      86
+    ],
+    [
+      "ML_Methods \u2192 Applications",
+      69
+    ],
+    [
+      "QA_Dialogue \u2192 ML_Methods",
+      51
+    ],
+    [
+      "Information_Extraction \u2192 ML_Methods",
+      38
+    ],
+    [
+      "Speech_Audio \u2192 ML_Methods",
+      33
+    ],
+    [
+      "Text_Generation \u2192 ML_Methods",
+      32
+    ],
+    [
+      "Sentiment_Opinion \u2192 ML_Methods",
+      29
+    ]
+  ],
+  "avg_confidence_correct": 0.7044591796033557,
+  "avg_confidence_incorrect": 0.6024580569336085
+}

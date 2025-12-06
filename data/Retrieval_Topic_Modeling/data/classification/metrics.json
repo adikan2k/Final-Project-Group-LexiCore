@@ -1,0 +1,24 @@
+{
+  "method": "Model Distillation (Zero-Shot Teacher \u2192 SBERT+LogReg Student)",
+  "teacher_model": "facebook/bart-large-mnli",
+  "student_model": "all-MiniLM-L6-v2 + LogisticRegression",
+  "num_classes": 12,
+  "classes": [
+    "Applications",
+    "Ethics_Bias",
+    "Information_Extraction",
+    "Language_Models",
+    "ML_Methods",
+    "Machine_Translation",
+    "NLP_Core",
+    "QA_Dialogue",
+    "Sentiment_Opinion",
+    "Speech_Audio",
+    "Text_Generation",
+    "Vision_Language"
+  ],
+  "f1_macro": 0.19964567224187443,
+  "f1_weighted": 0.6218594471186063,
+  "train_size": 18017,
+  "test_size": 4505
+}

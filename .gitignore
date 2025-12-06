@@ -1,0 +1,7 @@
+# Large files
+
+# Exclude large model and data files
+*.pkl
+*.parquet
+data/Retrieval_Topic_Modeling/models/
+data/Retrieval_Topic_Modeling/data/processed/

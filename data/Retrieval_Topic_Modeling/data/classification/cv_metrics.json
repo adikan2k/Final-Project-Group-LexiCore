@@ -1,0 +1,10 @@
+{
+  "f1_macro_mean": 0.14547988295954478,
+  "f1_macro_std": 0.006996613666879798,
+  "f1_weighted_mean": 0.6066434727498374,
+  "f1_weighted_std": 0.011424718558352238,
+  "accuracy_mean": 0.6620000000000001,
+  "accuracy_std": 0.012961481396815733,
+  "n_folds": 5,
+  "sample_size": 5000
+}

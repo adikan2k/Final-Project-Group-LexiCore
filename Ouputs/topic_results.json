@@ -1,0 +1,420 @@
+{
+  "kmeans": {
+    "n_clusters": 10,
+    "top_terms": {
+      "0": [
+        "text",
+        "language",
+        "model",
+        "speech",
+        "word",
+        "task",
+        "entity",
+        "dataset",
+        "use",
+        "translation"
+      ],
+      "1": [
+        "reasoning",
+        "model",
+        "llm",
+        "cot",
+        "language",
+        "step",
+        "chain",
+        "task",
+        "thought",
+        "reward"
+      ],
+      "2": [
+        "algorithm",
+        "distribution",
+        "function",
+        "problem",
+        "sample",
+        "method",
+        "gradient",
+        "model",
+        "bound",
+        "convergence"
+      ],
+      "3": [
+        "model",
+        "datum",
+        "method",
+        "learning",
+        "time",
+        "use",
+        "base",
+        "network",
+        "feature",
+        "prediction"
+      ],
+      "4": [
+        "image",
+        "visual",
+        "video",
+        "multimodal",
+        "model",
+        "modality",
+        "text",
+        "vlm",
+        "vision",
+        "modal"
+      ],
+      "5": [
+        "user",
+        "recommendation",
+        "item",
+        "recommender",
+        "system",
+        "preference",
+        "recommender system",
+        "model",
+        "interaction",
+        "llm"
+      ],
+      "6": [
+        "graph",
+        "gnn",
+        "node",
+        "knowledge graph",
+        "knowledge",
+        "network",
+        "model",
+        "structure",
+        "base",
+        "graph neural"
+      ],
+      "7": [
+        "agent",
+        "multi agent",
+        "multi",
+        "llm",
+        "task",
+        "system",
+        "environment",
+        "tool",
+        "model",
+        "framework"
+      ],
+      "8": [
+        "llm",
+        "model",
+        "language",
+        "language model",
+        "large",
+        "large language",
+        "prompt",
+        "model llm",
+        "task",
+        "human"
+      ],
+      "9": [
+        "retrieval",
+        "rag",
+        "query",
+        "document",
+        "llm",
+        "generation",
+        "retrieval augment",
+        "augment",
+        "knowledge",
+        "system"
+      ]
+    }
+  },
+  "lda": {
+    "n_topics": 10,
+    "coherence_score": 0.4056305390716542,
+    "perplexity": -7.425882325171128,
+    "optimal_topics": 15,
+    "topics": {
+      "0": "0.037*\"user\" + 0.028*\"recommendation\" + 0.019*\"item\" + 0.013*\"preference\" + 0.011*\"system\" + 0.011*\"learning\" + 0.010*\"propose\" + 0.010*\"base\" + 0.010*\"recommender\" + 0.009*\"interaction\"",
+      "1": "0.038*\"llm\" + 0.020*\"language\" + 0.018*\"reasoning\" + 0.013*\"large\" + 0.010*\"evaluation\" + 0.009*\"task\" + 0.009*\"benchmark\" + 0.009*\"generation\" + 0.009*\"prompt\" + 0.008*\"human\"",
+      "2": "0.018*\"training\" + 0.014*\"performance\" + 0.014*\"task\" + 0.013*\"token\" + 0.011*\"large\" + 0.010*\"language\" + 0.010*\"achieve\" + 0.009*\"fine\" + 0.008*\"train\" + 0.008*\"memory\"",
+      "3": "0.015*\"dataset\" + 0.012*\"use\" + 0.012*\"language\" + 0.010*\"datum\" + 0.010*\"clinical\" + 0.010*\"speech\" + 0.009*\"medical\" + 0.009*\"translation\" + 0.008*\"english\" + 0.007*\"detection\"",
+      "4": "0.019*\"network\" + 0.016*\"feature\" + 0.014*\"neural\" + 0.010*\"causal\" + 0.010*\"learn\" + 0.010*\"structure\" + 0.010*\"representation\" + 0.009*\"analysis\" + 0.008*\"learning\" + 0.007*\"use\"",
+      "5": "0.029*\"graph\" + 0.023*\"datum\" + 0.014*\"method\" + 0.012*\"attack\" + 0.011*\"base\" + 0.011*\"propose\" + 0.010*\"network\" + 0.010*\"privacy\" + 0.009*\"framework\" + 0.008*\"demonstrate\"",
+      "6": "0.012*\"method\" + 0.011*\"algorithm\" + 0.010*\"distribution\" + 0.010*\"problem\" + 0.008*\"use\" + 0.008*\"sample\" + 0.007*\"function\" + 0.007*\"show\" + 0.006*\"result\" + 0.006*\"base\"",
+      "7": "0.036*\"retrieval\" + 0.020*\"query\" + 0.016*\"information\" + 0.016*\"use\" + 0.014*\"document\" + 0.014*\"base\" + 0.013*\"dataset\" + 0.013*\"rag\" + 0.013*\"search\" + 0.013*\"text\"",
+      "8": "0.016*\"image\" + 0.013*\"multimodal\" + 0.011*\"semantic\" + 0.010*\"visual\" + 0.010*\"representation\" + 0.010*\"multi\" + 0.009*\"task\" + 0.009*\"propose\" + 0.009*\"feature\" + 0.009*\"method\"",
+      "9": "0.024*\"system\" + 0.020*\"agent\" + 0.015*\"research\" + 0.008*\"design\" + 0.008*\"datum\" + 0.008*\"provide\" + 0.008*\"tool\" + 0.008*\"user\" + 0.007*\"social\" + 0.007*\"paper\""
+    }
+  },
+  "bertopic": {
+    "n_topics": 12,
+    "topic_info": {
+      "Topic": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12
+      },
+      "Count": {
+        "0": 19497,
+        "1": 546,
+        "2": 173,
+        "3": 880,
+        "4": 151,
+        "5": 357,
+        "6": 209,
+        "7": 71,
+        "8": 145,
+        "9": 155,
+        "10": 62,
+        "11": 166,
+        "12": 110
+      },
+      "Name": {
+        "0": "0_the_and_to_of",
+        "1": "1_causal_the_of_and",
+        "2": "2_quantum_the_classical_of",
+        "3": "3_the_of_and_we",
+        "4": "4_clustering_the_of_and",
+        "5": "5_the_and_of_to",
+        "6": "6_and_of_the_to",
+        "7": "7_tensor_the_matrix_rank",
+        "8": "8_and_the_food_to",
+        "9": "9_the_of_and_to",
+        "10": "10_hashing_retrieval_the_hash",
+        "11": "11_the_and_of_to",
+        "12": "12_the_of_regression_lasso"
+      },
+      "Representation": {
+        "0": [
+          "the",
+          "and",
+          "to",
+          "of",
+          "in",
+          "we",
+          "for",
+          "that",
+          "on",
+          "with"
+        ],
+        "1": [
+          "causal",
+          "the",
+          "of",
+          "and",
+          "to",
+          "in",
+          "we",
+          "that",
+          "for",
+          "data"
+        ],
+        "2": [
+          "quantum",
+          "the",
+          "classical",
+          "of",
+          "and",
+          "to",
+          "in",
+          "for",
+          "we",
+          "learning"
+        ],
+        "3": [
+          "the",
+          "of",
+          "and",
+          "we",
+          "in",
+          "to",
+          "for",
+          "is",
+          "that",
+          "this"
+        ],
+        "4": [
+          "clustering",
+          "the",
+          "of",
+          "and",
+          "cluster",
+          "to",
+          "in",
+          "data",
+          "clusters",
+          "is"
+        ],
+        "5": [
+          "the",
+          "and",
+          "of",
+          "to",
+          "search",
+          "in",
+          "for",
+          "data",
+          "we",
+          "that"
+        ],
+        "6": [
+          "and",
+          "of",
+          "the",
+          "to",
+          "in",
+          "social",
+          "we",
+          "detection",
+          "on",
+          "for"
+        ],
+        "7": [
+          "tensor",
+          "the",
+          "matrix",
+          "rank",
+          "of",
+          "we",
+          "and",
+          "in",
+          "is",
+          "for"
+        ],
+        "8": [
+          "and",
+          "the",
+          "food",
+          "to",
+          "of",
+          "in",
+          "for",
+          "this",
+          "we",
+          "that"
+        ],
+        "9": [
+          "the",
+          "of",
+          "and",
+          "to",
+          "we",
+          "neural",
+          "that",
+          "equivariant",
+          "in",
+          "networks"
+        ],
+        "10": [
+          "hashing",
+          "retrieval",
+          "the",
+          "hash",
+          "to",
+          "and",
+          "of",
+          "image",
+          "codes",
+          "we"
+        ],
+        "11": [
+          "the",
+          "and",
+          "of",
+          "to",
+          "for",
+          "in",
+          "survival",
+          "risk",
+          "we",
+          "is"
+        ],
+        "12": [
+          "the",
+          "of",
+          "regression",
+          "lasso",
+          "and",
+          "in",
+          "we",
+          "to",
+          "for",
+          "that"
+        ]
+      },
+      "Representative_Docs": {
+        "0": [
+          "The core of the general recommender systems lies in learning high-quality embedding representations of users and items to investigate their positional relations in the feature space. Unfortunately, data sparsity caused by difficult-to-access interaction data severely limits the effectiveness of recommender systems. Faced with such a dilemma, various types of self-supervised learning methods have been introduced into recommender systems in an attempt to alleviate the data sparsity through distribution modeling or data augmentation. However, most data augmentation relies on elaborate manual design, which is not only not universal, but the bloated and redundant augmentation process may significantly slow down model training progress. To tackle these limitations, we propose a novel Dual Mixing-based Recommendation Framework (MixRec) to empower data augmentation as we wish. Specifically, we propose individual mixing and collective mixing, respectively. The former aims to provide a new positive sample that is unique to the target (user or item) and to make the pair-wise recommendation loss benefit from it, while the latter aims to portray a new sample that contains group properties in a batch. The two mentioned mixing mechanisms allow for data augmentation with only one parameter that does not need to be set multiple times and can be done in linear time complexity. Besides, we propose the dual-mixing contrastive learning to maximize the utilization of these new-constructed samples to enhance the consistency between pairs of positive samples. Experimental results on four real-world datasets demonstrate the advantages of MixRec in terms of effectiveness, simplicity, efficiency, and scalability.",
+          "Search-based recommendation is one of the most critical application scenarios in e-commerce platforms. Users' complex search contexts--such as spatiotemporal factors, historical interactions, and current query's information--constitute an essential part of their decision-making, reflecting implicit preferences that complement explicit query terms. Modeling such rich contextual signals and their intricate associations with candidate items remains a key challenge. Although numerous efforts have been devoted to building more effective search methods, existing approaches still show limitations in integrating contextual information, which hinders their ability to fully capture user intent.   To address these challenges, we propose a context-aware reasoning-enhanced generative search framework for better \\textbf{understanding the complicated context}. Specifically, the framework first unifies heterogeneous user and item contexts into textual representations or text-based semantic identifiers and aligns them. To overcome the lack of explicit reasoning trajectories, we introduce a self-evolving post-training paradigm that iteratively combines supervised fine-tuning and reinforcement learning to progressively enhance the model's reasoning capability. In addition, we identify potential biases in existing RL algorithms when applied to search scenarios and present a debiased variant of GRPO to improve ranking performance. Extensive experiments on search log data collected from a real-world e-commerce platform demonstrate that our approach achieves superior performance compared with strong baselines, validating its effectiveness for search-based recommendation.",
+          "The classic supervised machine learning paradigm is based on learning in isolation, a single predictive model for a task using a single dataset. This approach requires a large number of training examples and performs best for well-defined and narrow tasks. Transfer learning refers to a set of methods that extend this approach by leveraging data from additional domains or tasks to train a model with better generalization properties. Over the last two years, the field of Natural Language Processing (NLP) has witnessed the emergence of several transfer learning methods and architectures which significantly improved upon the state-of-the-art on a wide range of NLP tasks. These improvements together with the wide availability and ease of integration of these methods are reminiscent of the factors that led to the success of pretrained word embeddings and ImageNet pretraining in computer vision, and indicate that these methods will likely become a common tool in the NLP landscape as well as an important research direction. We will present an overview of modern transfer learning methods in NLP, how models are pre-trained, what information the representations they learn capture, and review examples and case studies on how these models can be integrated and adapted in downstream NLP tasks."
+        ],
+        "1": [
+          "Practical and ethical constraints often require the use of observational data for causal inference, particularly in medicine and social sciences. Yet, observational datasets are prone to confounding, potentially compromising the validity of causal conclusions. While it is possible to correct for biases if the underlying causal graph is known, this is rarely a feasible ask in practical scenarios. A common strategy is to adjust for all available covariates, yet this approach can yield biased treatment effect estimates, especially when post-treatment or unobserved variables are present. We propose RAMEN, an algorithm that produces unbiased treatment effect estimates by leveraging the heterogeneity of multiple data sources without the need to know or learn the underlying causal graph. Notably, RAMEN achieves doubly robust identification: it can identify the treatment effect whenever the causal parents of the treatment or those of the outcome are observed, and the node whose parents are observed satisfies an invariance assumption. Empirical evaluations on synthetic and real-world datasets show that our approach outperforms existing methods.",
+          "The ultimate goal of most scientific studies is to understand the underlying causal mechanism between the involved variables. Structural causal models (SCMs) are widely used to represent such causal mechanisms. Given an SCM, causal queries on all three levels of Pearl's causal hierarchy can be answered: $L_1$ observational, $L_2$ interventional, and $L_3$ counterfactual. An essential aspect of modeling the SCM is to model the dependency of each variable on its causal parents. Traditionally this is done by parametric statistical models, such as linear or logistic regression models. This allows to handle all kinds of data types and fit interpretable models but bears the risk of introducing a bias. More recently neural causal models came up using neural networks (NNs) to model the causal relationships, allowing the estimation of nearly any underlying functional form without bias. However, current neural causal models are generally restricted to continuous variables and do not yield an interpretable form of the causal relationships. Transformation models range from simple statistical regressions to complex networks and can handle continuous, ordinal, and binary data. Here, we propose to use TRAMs to model the functional relationships in SCMs allowing us to bridge the gap between interpretability and flexibility in causal modeling. We call this method TRAM-DAG and assume currently that the underlying directed acyclic graph is known. For the fully observed case, we benchmark TRAM-DAGs against state-of-the-art statistical and NN-based causal models. We show that TRAM-DAGs are interpretable but also achieve equal or superior performance in queries ranging from $L_1$ to $L_3$ in the causal hierarchy. For the continuous case, TRAM-DAGs allow for counterfactual queries for three common causal structures, including unobserved confounding.",
+          "Transporting causal information learned from experiments in one population to another is a critical challenge in clinical research and decision-making. Causal transportability uses causal graphs to model differences between the source and target populations and identifies conditions under which causal effects learned from experiments can be reused in a different population. Similarly, causal identifiability identifies conditions under which causal effects can be estimated from observational data. However, these approaches rely on knowing the causal graph, which is often unavailable in real-world settings. In this work, we propose a Bayesian method for assessing whether Z-specific (conditional) causal effects are both identifiable and transportable, without knowing the causal graph. Our method combines experimental data from the source population with observational data from the target population to compute the probability that a causal effect is both identifiable from observational data and transportable. When this holds, we leverage both observational data from the target domain and experimental data from the source domain to obtain an unbiased, efficient estimator of the causal effect in the target population. Using simulations, we demonstrate that our method correctly identifies transportable causal effects and improves causal effect estimation."
+        ],
+        "2": [
+          "Quantum computers offer a promising route to tackling problems that are classically intractable such as in prime-factorization, solving large-scale linear algebra and simulating complex quantum systems, but potentially require fault-tolerant quantum hardware. On the other hand, variational quantum algorithms (VQAs) are a promising approach for leveraging near-term quantum computers to solve complex problems. However, there remain major challenges in their trainability and resource costs on quantum hardware. Here we address these challenges by adopting Hardware Efficient and dynamical LIe algebra supported Ansatz (HELIA), and propose two training methods that combine an existing classical-enhanced g-sim method and the quantum-based Parameter-Shift Rule (PSR). Our improvement comes from distributing the resources required for gradient estimation and training to both classical and quantum hardware. We numerically evaluate our approach for ground-state estimation of 6 to 18-qubit Hamiltonians using the Variational Quantum Eigensolver (VQE) and quantum phase classification for up to 12-qubit Hamiltonians using quantum neural networks. For VQE, our method achieves higher accuracy and success rates, with an average reduction in quantum hardware calls of up to 60% compared to purely quantum-based PSR. For classification, we observe test accuracy improvements of up to 2.8%. We also numerically demonstrate the capability of HELIA in mitigating barren plateaus, paving the way for training large-scale quantum models.",
+          "Quantum machine learning models that leverage quantum circuits as quantum feature maps (QFMs) are recognized for their enhanced expressive power in learning tasks. Such models have demonstrated rigorous end-to-end quantum speedups for specific families of classification problems. However, deploying deep QFMs on real quantum hardware remains challenging due to circuit noise and hardware constraints. Additionally, variational quantum algorithms often suffer from computational bottlenecks, particularly in accurate gradient estimation, which significantly increases quantum resource demands during training. We propose Iterative Quantum Feature Maps (IQFMs), a hybrid quantum-classical framework that constructs a deep architecture by iteratively connecting shallow QFMs with classically computed augmentation weights. By incorporating contrastive learning and a layer-wise training mechanism, the IQFMs framework effectively reduces quantum runtime and mitigates noise-induced degradation. In tasks involving noisy quantum data, numerical experiments show that the IQFMs framework outperforms quantum convolutional neural networks, without requiring the optimization of variational quantum parameters. Even for a typical classical image classification benchmark, a carefully designed IQFMs framework achieves performance comparable to that of classical neural networks. This framework presents a promising path to address current limitations and harness the full potential of quantum-enhanced machine learning.",
+          "In recent years, machine learning and deep learning have driven advances in domains such as image classification, speech recognition, and anomaly detection by leveraging multi-layer neural networks to model complex data. Simultaneously, quantum computing (QC) promises to address classically intractable problems via quantum parallelism, motivating research in quantum machine learning (QML). Among QML techniques, quantum autoencoders show promise for compressing high-dimensional quantum and classical data. However, designing effective quantum circuit architectures for quantum autoencoders remains challenging due to the complexity of selecting gates, arranging circuit layers, and tuning parameters.   This paper proposes a neural architecture search (NAS) framework that automates the design of quantum autoencoders using a genetic algorithm (GA). By systematically evolving variational quantum circuit (VQC) configurations, our method seeks to identify high-performing hybrid quantum-classical autoencoders for data reconstruction without becoming trapped in local minima. We demonstrate effectiveness on image datasets, highlighting the potential of quantum autoencoders for efficient feature extraction within a noise-prone, near-term quantum era. Our approach lays a foundation for broader application of genetic algorithms to quantum architecture search, aiming for a robust, automated method that can adapt to varied data and hardware constraints."
+        ],
+        "3": [
+          "Geometric representation learning in preserving the intrinsic geometric and topological properties for discrete non-Euclidean data is crucial in scientific applications. Previous research generally mapped non-Euclidean discrete data into Euclidean space during representation learning, which may lead to the loss of some critical geometric information. In this paper, we propose a novel Isometric Immersion Kernel Learning (IIKL) method to build Riemannian manifold and isometrically induce Riemannian metric from discrete non-Euclidean data. We prove that Isometric immersion is equivalent to the kernel function in the tangent bundle on the manifold, which explicitly guarantees the invariance of the inner product between vectors in the arbitrary tangent space throughout the learning process, thus maintaining the geometric structure of the original data. Moreover, a novel parameterized learning model based on IIKL is introduced, and an alternating training method for this model is derived using Maximum Likelihood Estimation (MLE), ensuring efficient convergence. Experimental results proved that using the learned Riemannian manifold and its metric, our model preserved the intrinsic geometric representation of data in both 3D and high-dimensional datasets successfully, and significantly improved the accuracy of downstream tasks, such as data reconstruction and classification. It is showed that our method could reduce the inner product invariant loss by more than 90% compared to state-of-the-art (SOTA) methods, also achieved an average 40% improvement in downstream reconstruction accuracy and a 90% reduction in error for geometric metrics involving isometric and conformal.",
+          "The rapid growth of high-dimensional datasets across various scientific domains has created a pressing need for new statistical methods to compare distributions supported on their underlying structures. Assessing similarity between datasets whose samples lie on low-dimensional manifolds requires robust techniques capable of separating meaningful signal from noise. We propose a principled framework for statistical inference of similarity and alignment between distributions supported on manifolds underlying high-dimensional datasets in the presence of heterogeneous noise. The key idea is to link the low-rank structure of observed data matrices to their underlying manifold geometry. By analyzing the spectrum of the sample covariance under a manifold signal-plus-noise model, we develop a scale-invariant distance measure between datasets based on their principal variance structures. We further introduce a consistent estimator for this distance and a statistical test for manifold alignability, and establish their asymptotic properties using random matrix theory. The proposed framework accommodates heterogeneous noise across datasets and offers an efficient, theoretically grounded approach for comparing high-dimensional datasets with low-dimensional manifold structures. Through extensive simulations and analyses of multi-sample single-cell datasets, we demonstrate that our method achieves superior robustness and statistical power compared with existing approaches.",
+          "This paper proposes an innovative extension of Principal Component Analysis (PCA) that transcends the traditional assumption of data lying in Euclidean space, enabling its application to data on Riemannian manifolds. The primary challenge addressed is the lack of vector space operations on such manifolds. Fletcher et al., in their work {\\em Principal Geodesic Analysis for the Study of Nonlinear Statistics of Shape}, proposed Principal Geodesic Analysis (PGA) as a geometric approach to analyze data on Riemannian manifolds, particularly effective for structured datasets like medical images, where the manifold's intrinsic structure is apparent. However, PGA's applicability is limited when dealing with general datasets that lack an implicit local distance notion. In this work, we introduce a generalized framework, termed {\\em Riemannian Principal Component Analysis (R-PCA)}, to extend PGA for any data endowed with a local distance structure. Specifically, we adapt the PCA methodology to Riemannian manifolds by equipping data tables with local metrics, enabling the incorporation of manifold geometry. This framework provides a unified approach for dimensionality reduction and statistical analysis directly on manifolds, opening new possibilities for datasets with region-specific or part-specific distance notions, ensuring respect for their intrinsic geometric properties."
+        ],
+        "4": [
+          "The mixture model is undoubtedly one of the greatest contributions to clustering. For continuous data, Gaussian models are often used and the Expectation-Maximization (EM) algorithm is particularly suitable for estimating parameters from which clustering is inferred. If these models are particularly popular in various domains including image clustering, they however suffer from the dimensionality and also from the slowness of convergence of the EM algorithm. However, the Classification EM (CEM) algorithm, a classifying version, offers a fast convergence solution while dimensionality reduction still remains a challenge. Thus we propose in this paper an algorithm combining simultaneously and non-sequentially the two tasks --Data embedding and Clustering-- relying on Principal Component Analysis (PCA) and CEM. We demonstrate the interest of such approach in terms of clustering and data embedding. We also establish different connections with other clustering approaches.",
+          "Clustering approaches that utilize convex loss functions have recently attracted growing interest in the formation of compact data clusters. Although classical methods like k-means and its wide family of variants are still widely used, all of them require the number of clusters k to be supplied as input, and many are notably sensitive to initialization. Convex clustering provides a more stable alternative by formulating the clustering task as a convex optimization problem, ensuring a unique global solution. However, it faces challenges in handling high-dimensional data, especially in the presence of noise and outliers. Additionally, strong fusion regularization, controlled by the tuning parameter, can hinder effective cluster formation within a convex clustering framework. To overcome these challenges, we introduce a robust approach that integrates convex clustering with the Median of Means (MoM) estimator, thus developing an outlier-resistant and efficient clustering framework that does not necessitate prior knowledge of the number of clusters. By leveraging the robustness of MoM alongside the stability of convex clustering, our method enhances both performance and efficiency, especially on large-scale datasets. Theoretical analysis demonstrates weak consistency under specific conditions, while experiments on synthetic and real-world datasets validate the method's superior performance compared to existing approaches.",
+          "Clustering algorithms have long been the topic of research, representing the more popular side of unsupervised learning. Since clustering analysis is one of the best ways to find some clarity and structure within raw data, this paper explores a novel approach to \\textit{k}-means clustering. Here we present a \\textit{k}-means clustering algorithm that takes both the within cluster distance (WCD) and the inter cluster distance (ICD) as the distance metric to cluster the data into \\emph{k} clusters pre-determined by the Calinski-Harabasz criterion in order to provide a more robust output for the clustering analysis. The idea with this approach is that by including both the measurement metrics, the convergence of the data into their clusters becomes solidified and more robust. We run the algorithm with some synthetically produced data and also some benchmark data sets obtained from the UCI repository. The results show that the convergence of the data into their respective clusters is more accurate by using both WCD and ICD measurement metrics. The algorithm is also better at clustering the outliers into their true clusters as opposed to the traditional \\textit{k} means method. We also address some interesting possible research topics that reveal themselves as we answer the questions we initially set out to address."
+        ],
+        "5": [
+          "Retrieving points based on proximity in a high-dimensional vector space is a crucial step in information retrieval applications. The approximate nearest neighbor search (ANNS) problem, which identifies the $k$ nearest neighbors for a query, has been extensively studied in recent years. However, comparatively little attention has been paid to the related problem of finding all points within a given distance of a query, the range retrieval problem, despite its applications in areas such as duplicate detection, plagiarism checking, and facial recognition. In this paper, we present new techniques for range retrieval on graph-based vector indices, which are known to achieve excellent performance on ANNS queries. Since a range query may have anywhere from no matching results to thousands of matching results in the database, we introduce a set of range retrieval algorithms based on modifications of the standard graph search that adapt to terminate quickly on queries in the former group, and to put more resources into finding results for the latter group. Due to the lack of existing benchmarks for range retrieval, we also undertake a comprehensive study of range characteristics of existing embedding datasets, and select a suitable range retrieval radius for eight existing datasets with up to 1 billion points in addition to one existing benchmark. We test our algorithms on these datasets, and find up to 100x improvement in query throughput over a standard graph search and the FAISS-IVF range search algorithm. We also find up to 10x improvement over a previously suggested modification of the standard beam search, and strong performance up to 1 billion data points.",
+          "Approximate Nearest Neighbor Search (ANNS) is now widely used in various applications, ranging from information retrieval, question answering, and recommendation, to search for similar high-dimensional vectors. As the amount of vector data grows continuously, it becomes important to support updates to vector index, the enabling technique that allows for efficient and accurate ANNS on vectors. Because of the curse of high dimensionality, it is often costly to identify the right neighbors of a single new vector, a necessary process for index update. To amortize update costs, existing systems maintain a secondary index to accumulate updates, which are merged by the main index by global rebuilding the entire index periodically. However, this approach has high fluctuations of search latency and accuracy, not even to mention that it requires substantial resources and is extremely time-consuming for rebuilds. We introduce SPFresh, a system that supports in-place vector updates. At the heart of SPFresh is LIRE, a lightweight incremental rebalancing protocol to split vector partitions and reassign vectors in the nearby partitions to adapt to data distribution shift. LIRE achieves low-overhead vector updates by only reassigning vectors at the boundary between partitions, where in a high-quality vector index the amount of such vectors are deemed small. With LIRE, SPFresh provides superior query latency and accuracy to solutions based on global rebuild, with only 1% of DRAM and less than 10% cores needed at the peak compared to the state-of-the-art, in a billion scale vector index with 1% of daily vector update rate.",
+          "Large-scale approximate nearest neighbor search (ANN) has been gaining attention along with the latest machine learning researches employing ANNs. If the data is too large to fit in memory, it is necessary to search for the most similar vectors to a given query vector from the data stored in storage devices, not from that in memory. The storage device such as NAND flash memory has larger capacity than the memory device such as DRAM, but they also have larger latency to read data. Therefore, ANN methods for storage require completely different approaches from conventional in-memory ANN methods. Since the approximation that the time required for search is determined only by the amount of data fetched from storage holds under reasonable assumptions, our goal is to minimize it while maximizing recall. For partitioning-based ANNs, vectors are partitioned into clusters in the index building phase. In the search phase, some of the clusters are chosen, the vectors in the chosen clusters are fetched from storage, and the nearest vector is retrieved from the fetched vectors. Thus, the key point is to accurately select the clusters containing the ground truth nearest neighbor vectors. We accomplish this by proposing a method to predict the correct clusters by means of a neural network that is gradually refined by alternating supervised learning and duplicated cluster assignment. Compared to state-of-the-art SPANN and an exhaustive method using k-means clustering and linear search, the proposed method achieves 90% recall on SIFT1M with 80% and 58% less data fetched from storage, respectively."
+        ],
+        "6": [
+          "The proliferation of online hate speech poses a significant threat to the harmony of the web. While explicit hate is easily recognized through overt slurs, implicit hate speech is often conveyed through sarcasm, irony, stereotypes, or coded language -- making it harder to detect. Existing hate speech detection models, which predominantly rely on surface-level linguistic cues, fail to generalize effectively across diverse stylistic variations. Moreover, hate speech spread on different platforms often targets distinct groups and adopts unique styles, potentially inducing spurious correlations between them and labels, further challenging current detection approaches. Motivated by these observations, we hypothesize that the generation of hate speech can be modeled as a causal graph involving key factors: contextual environment, creator motivation, target, and style. Guided by this graph, we propose CADET, a causal representation learning framework that disentangles hate speech into interpretable latent factors and then controls confounders, thereby isolating genuine hate intent from superficial linguistic cues. Furthermore, CADET allows counterfactual reasoning by intervening on style within the latent space, naturally guiding the model to robustly identify hate speech in varying forms. CADET demonstrates superior performance in comprehensive experiments, highlighting the potential of causal priors in advancing generalizable hate speech detection.",
+          "Hate speech remains prevalent in human society and continues to evolve in its forms and expressions. Modern advancements in internet and online anonymity accelerate its rapid spread and complicate its detection. However, hate speech datasets exhibit diverse characteristics primarily because they are constructed from different sources and platforms, each reflecting different linguistic styles and social contexts. Despite this diversity, prior studies on hate speech detection often rely on fixed methodologies without adapting to data-specific features. We introduce RV-HATE, a detection framework designed to account for the dataset-specific characteristics of each hate speech dataset. RV-HATE consists of multiple specialized modules, where each module focuses on distinct linguistic or contextual features of hate speech. The framework employs reinforcement learning to optimize weights that determine the contribution of each module for a given dataset. A voting mechanism then aggregates the module outputs to produce the final decision. RV-HATE offers two primary advantages: (1)~it improves detection accuracy by tailoring the detection process to dataset-specific attributes, and (2)~it also provides interpretable insights into the distinctive features of each dataset. Consequently, our approach effectively addresses implicit hate speech and achieves superior performance compared to conventional static methods. Our code is available at https://github.com/leeyejin1231/RV-HATE.",
+          "Hate speech towards a group or an individual based on their perceived identity, such as ethnicity, religion, or nationality, is widely and rapidly spreading on social media platforms. This causes harmful impacts on users of these platforms and the quality of online shared content. Fortunately, researchers have developed different machine learning algorithms to automatically detect hate speech on social media platforms. However, most of these algorithms focus on the detection of hate speech that appears in English. There is a lack of studies on the detection of hate speech in Arabic due to the language\u2019s complex nature. This paper aims to address this issue by proposing an effective approach for detecting Arabic hate speech on social media platforms, namely Twitter. Therefore, this paper introduces the Arabic BERT-Mini Model (ABMM) to identify hate speech on social media. More specifically, the bidirectional encoder representations from transformers (BERT) model was employed to analyze data collected from Twitter and classify the results into three categories: normal, abuse, and hate speech. In order to evaluate our model and state-of-the-art approaches, we conducted a series of experiments on Twitter data. In comparison with previous works on Arabic hate-speech detection, the ABMM model shows very promising results with an accuracy score of 0.986 compared to the other models."
+        ],
+        "7": [
+          "Selecting the latent dimensions (ranks) in tensor factorization is a central challenge that often relies on heuristic methods. This paper introduces a rigorous approach to determine rank identifiability in probabilistic tensor models, based on prior predictive moment matching. We transform a set of moment matching conditions into a log-linear system of equations in terms of marginal moments, prior hyperparameters, and ranks; establishing an equivalence between rank identifiability and the solvability of such system. We apply this framework to four foundational tensor-models, demonstrating that the linear structure of the PARAFAC/CP model, the chain structure of the Tensor Train model, and the closed-loop structure of the Tensor Ring model yield solvable systems, making their ranks identifiable. In contrast, we prove that the symmetric topology of the Tucker model leads to an underdetermined system, rendering the ranks unidentifiable by this method. For the identifiable models, we derive explicit closed-form rank estimators based on the moments of observed data only. We empirically validate these estimators and evaluate the robustness of the proposal.",
+          "We establish parameter inference for the Poisson canonical polyadic (PCP) model of tensor count data through a latent-variable formulation. Our approach exploits the property that any random tensor that follows the PCP model can be derived by marginalizing an unobservable random tensor of one dimension larger. The loglikelihood of this larger dimensional tensor, referred to as the \"complete\" loglikelihood, is comprised of multiple loglikelihoods corresponding to rank one PCP models. Using this methodology, we first demonstrate that several existing algorithms for fitting non-negative matrix and tensor factorizations are Expectation-Maximization algorithms. Next, we derive the observed and expected Fisher information matrices for the PCP model by leveraging its latent-variable formulation. The Fisher information provides us crucial insights into the well-posedness of the tensor model, such as the role that the rank of parameter tensor plays in identifiability and indeterminacy. For the special case of PCP models with rank one parameter tensors, we demonstrate that these results are greatly simplified.",
+          "Tensor completion is an extension of matrix completion aimed at recovering a multiway data tensor by leveraging a given subset of its entries (observations) and the pattern of observation. The low-rank assumption is key in establishing a relationship between the observed and unobserved entries of the tensor. The low-rank tensor completion problem is typically solved using numerical optimization techniques, where the rank information is used either implicitly (in the rank minimization approach) or explicitly (in the error minimization approach). Current theories concerning these techniques often study probabilistic recovery guarantees under conditions such as random uniform observations and incoherence requirements. However, if an observation pattern exhibits some low-rank structure that can be exploited, more efficient algorithms with deterministic recovery guarantees can be designed by leveraging this structure. This work shows how to use only standard linear algebra operations to compute the tensor train decomposition of a specific type of ``fiber-wise\" observed tensor, where some of the fibers of a tensor (along a single specific mode) are either fully observed or entirely missing, unlike the usual entry-wise observations. From an application viewpoint, this setting is relevant when it is easier to sample or collect a multiway data tensor along a specific mode (e.g., temporal). The proposed completion method is fast and is guaranteed to work under reasonable deterministic conditions on the observation pattern. Through numerical experiments, we showcase interesting applications and use cases that illustrate the effectiveness of the proposed approach."
+        ],
+        "8": [
+          "This paper presents a novel approach to compute food composition data for Indian recipes using a knowledge graph for Indian food (FKG[.]in) and LLMs. The primary focus is to provide a broad overview of an automated food composition analysis workflow and describe its core functionalities: nutrition data aggregation, food composition analysis, and LLM-augmented information resolution. This workflow aims to complement FKG[.]in and iteratively supplement food composition data from verified knowledge bases. Additionally, this paper highlights the challenges of representing Indian food and accessing food composition data digitally. It also reviews three key sources of food composition data: the Indian Food Composition Tables, the Indian Nutrient Databank, and the Nutritionix API. Furthermore, it briefly outlines how users can interact with the workflow to obtain diet-based health recommendations and detailed food composition information for numerous recipes. We then explore the complex challenges of analyzing Indian recipe information across dimensions such as structure, multilingualism, and uncertainty as well as present our ongoing work on LLM-based solutions to address these issues. The methods proposed in this workshop paper for AI-driven knowledge curation and information resolution are application-agnostic, generalizable, and replicable for any domain.",
+          "This comprehensive review explores food data in the Semantic Web, highlighting key nutritional resources, knowledge graphs, and emerging applications in the food domain. It examines prominent food data resources such as USDA, FoodOn, FooDB, and Recipe1M+, emphasizing their contributions to nutritional data representation. Special focus is given to food entity linking and recognition techniques, which enable integration of heterogeneous food data sources into cohesive semantic resources. The review further discusses food knowledge graphs, their role in semantic interoperability, data enrichment, and knowledge extraction, and their applications in personalized nutrition, ingredient substitution, food-drug and food-disease interactions, and interdisciplinary research. By synthesizing current advancements and identifying challenges, this work provides insights to guide future developments in leveraging semantic technologies for the food domain.",
+          "Personalized food recommendation systems (Food-RecSys) critically underperform due to fragmented component understanding and the failure of conventional machine learning with vast, imbalanced food data. While Large Language Models (LLMs) offer promise, current generic Recommendation as Language Processing (RLP) strategies lack the necessary specialization for the food domain's complexity. This thesis tackles these deficiencies by first identifying and analyzing the essential components for effective Food-RecSys. We introduce two key innovations: a multimedia food logging platform for rich contextual data acquisition and the World Food Atlas, enabling unique geolocation-based food analysis previously unavailable. Building on this foundation, we pioneer the Food Recommendation as Language Processing (F-RLP) framework - a novel, integrated approach specifically architected for the food domain. F-RLP leverages LLMs in a tailored manner, overcoming the limitations of generic models and providing a robust infrastructure for effective, contextual, and truly personalized food recommendations."
+        ],
+        "9": [
+          "Many machine learning tasks in the natural sciences are precisely equivariant to particular symmetries. Nonetheless, equivariant methods are often not employed, perhaps because training is perceived to be challenging, or the symmetry is expected to be learned, or equivariant implementations are seen as hard to build. Group averaging is an available technique for these situations. It happens at test time; it can make any trained model precisely equivariant at a (often small) cost proportional to the size of the group; it places no requirements on model structure or training. It is known that, under mild conditions, the group-averaged model will have a provably better prediction accuracy than the original model. Here we show that an inexpensive group averaging can improve accuracy in practice. We take well-established benchmark machine learning models of differential equations in which certain symmetries ought to be obeyed. At evaluation time, we average the models over a small group of symmetries. Our experiments show that this procedure always decreases the average evaluation loss, with improvements of up to 37\\% in terms of the VRMSE. The averaging produces visually better predictions for continuous dynamics. This short paper shows that, under certain common circumstances, there are no disadvantages to imposing exact symmetries; the ML4PS community should consider group averaging as a cheap and simple way to improve model accuracy.",
+          "We develop a theory of category-equivariant neural networks (CENNs) that unifies group/groupoid-equivariant networks, poset/lattice-equivariant networks, graph and sheaf neural networks. Equivariance is formulated as naturality in a topological category with Radon measures, formulating linear and nonlinear layers in the categorical setup. We prove the equivariant universal approximation theorem in the general setting: the class of finite-depth CENNs is dense in the space of continuous equivariant transformations. We instantiate the framework for groups/groupoids, posets/lattices, graphs and cellular sheaves, deriving universal approximation theorems for them in a systematic manner. Categorical equivariant deep learning thus allows us to expand the horizons of equivariant deep learning beyond group actions, encompassing not only geometric symmetries but also contextual and compositional symmetries.",
+          "Equivariance encodes known symmetries into neural networks, often enhancing generalization. However, equivariant networks cannot break symmetries: the output of an equivariant network must, by definition, have at least the same self-symmetries as the input. This poses an important problem, both (1) for prediction tasks on domains where self-symmetries are common, and (2) for generative models, which must break symmetries in order to reconstruct from highly symmetric latent spaces. This fundamental limitation can be addressed by considering equivariant conditional distributions, instead of equivariant functions. We present novel theoretical results that establish necessary and sufficient conditions for representing such distributions. Concretely, this representation provides a practical framework for breaking symmetries in any equivariant network via randomized canonicalization. Our method, SymPE (Symmetry-breaking Positional Encodings), admits a simple interpretation in terms of positional encodings. This approach expands the representational power of equivariant networks while retaining the inductive bias of symmetry, which we justify through generalization bounds. Experimental results demonstrate that SymPE significantly improves performance of group-equivariant and graph neural networks across diffusion models for graphs, graph autoencoders, and lattice spin system modeling."
+        ],
+        "10": [
+          "With the rapid growth of textual content on the Internet, efficient large-scale semantic text retrieval has garnered increasing attention from both academia and industry. Text hashing, which projects original texts into compact binary hash codes, is a crucial method for this task. By using binary codes, the semantic similarity computation for text pairs is significantly accelerated via fast Hamming distance calculations, and storage costs are greatly reduced. With the advancement of deep learning, deep text hashing has demonstrated significant advantages over traditional, data-independent hashing techniques. By leveraging deep neural networks, these methods can learn compact and semantically rich binary representations directly from data, overcoming the performance limitations of earlier approaches. This survey investigates current deep text hashing methods by categorizing them based on their core components: semantic extraction, hash code quality preservation, and other key technologies. We then present a detailed evaluation schema with results on several popular datasets, followed by a discussion of practical applications and open-source tools for implementation. Finally, we conclude by discussing key challenges and future research directions, including the integration of deep text hashing with large language models to further advance the field. The project for this survey can be accessed at https://github.com/hly1998/DeepTextHashing.",
+          "Deep hashing improves retrieval efficiency through compact binary codes, yet it introduces severe and often overlooked privacy risks. The ability to reconstruct original training data from hash codes could lead to serious threats such as biometric forgery and privacy breaches. However, model inversion attacks specifically targeting deep hashing models remain unexplored, leaving their security implications unexamined. This research gap stems from the inaccessibility of genuine training hash codes and the highly discrete Hamming space, which prevents existing methods from adapting to deep hashing. To address these challenges, we propose DHMI, the first diffusion-based model inversion framework designed for deep hashing. DHMI first clusters an auxiliary dataset to derive semantic hash centers as surrogate anchors. It then introduces a surrogate-guided denoising optimization method that leverages a novel attack metric (fusing classification consistency and hash proximity) to dynamically select candidate samples. A cluster of surrogate models guides the refinement of these candidates, ensuring the generation of high-fidelity and semantically consistent images. Experiments on multiple datasets demonstrate that DHMI successfully reconstructs high-resolution, high-quality images even under the most challenging black-box setting, where no training hash codes are available. Our method outperforms the existing state-of-the-art model inversion attacks in black-box scenarios, confirming both its practical efficacy and the critical privacy risks inherent in deep hashing systems.",
+          "The hashing technique has been extensively used in large-scale image retrieval applications due to its low storage and fast computing speed. Most existing deep hashing approaches cannot fully consider the global semantic similarity and category-level semantic information, which result in the insufficient utilization of the global semantic similarity for hash codes learning and the semantic information loss of hash codes. To tackle these issues, we propose a novel deep hashing approach with triplet labels, namely, deep category-level and regularized hashing (DCRH), to leverage the global semantic similarity of deep feature and category-level semantic information to enhance the semantic similarity of hash codes. There are four contributions in this article. First, we design a novel global semantic similarity constraint about the deep feature to make the anchor deep feature more similar to the positive deep feature than to the negative deep feature. Second, we leverage label information to enhance category-level semantics of hash codes for hash codes learning. Third, we develop a new triplet construction module to select good image triplets for effective hash functions learning. Finally, we propose a new triplet regularized loss (Reg-L) term, which can force binary-like codes to approximate binary codes and eventually minimize the information loss between binary-like codes and binary codes. Extensive experimental results in three image retrieval benchmark datasets show that the proposed DCRH approach achieves superior performance over other state-of-the-art hashing approaches."
+        ],
+        "11": [
+          "This paper proposes a new class of predictive models for survival analysis called Generalized Bayesian Ensemble Survival Tree (GBEST). It is well known that survival analysis poses many different challenges, in particular when applied to small data or censorship mechanism. Our contribution is the proposal of an ensemble approach that uses Bayesian bootstrap and beta Stacy bootstrap methods to improve the outcome in survival application with a special focus on small datasets. More precisely, a novel approach to integrate Beta Stacy Bayesian bootstrap in bagging tree models for censored data is proposed in this paper. Empirical evidence achieved on simulated and real data underlines that our approach performs better in terms of predictive performances and stability of the results compared with classical survival models available in the literature. In terms of methodology our novel contribution considers the adaptation of recent Bayesian ensemble approaches to survival data, providing a new model called Generalized Bayesian Ensemble Survival Tree (GBEST). A further result in terms of computational novelty is the implementation in R of GBEST, available in a public GitHub repository.",
+          "Survival analysis is a fundamental tool for modeling time-to-event data in healthcare, engineering, and finance, where censored observations pose significant challenges. While traditional methods like the Beran estimator offer nonparametric solutions, they often struggle with the complex data structures and heavy censoring. This paper introduces three novel survival models, iSurvM (the imprecise Survival model based on Mean likelihood functions), iSurvQ (the imprecise Survival model based on the Quantiles of likelihood functions), and iSurvJ (the imprecise Survival model based on the Joint learning), that combine imprecise probability theory with attention mechanisms to handle censored data without parametric assumptions. The first idea behind the models is to represent censored observations by interval-valued probability distributions for each instance over time intervals between events moments. The second idea is to employ the kernel-based Nadaraya-Watson regression with trainable attention weights for computing the imprecise probability distribution over time intervals for the entire dataset. The third idea is to consider three decision strategies for training, which correspond to the proposed three models. Experiments on synthetic and real datasets demonstrate that the proposed models, especially iSurvJ, consistently outperform the Beran estimator from the accuracy and computational complexity points of view. Codes implementing the proposed models are publicly available.",
+          "In survival analysis, estimating the conditional survival function given predictors is often of interest. There is a growing trend in the development of deep learning methods for analyzing censored time-to-event data, especially when dealing with high-dimensional predictors that are complexly interrelated. Many existing deep learning approaches for estimating the conditional survival functions extend the Cox regression models by replacing the linear function of predictor effects by a shallow feed-forward neural network while maintaining the proportional hazards assumption. Their implementation can be computationally intensive due to the use of the full dataset at each iteration because the use of batch data may distort the at-risk set of the partial likelihood function. To overcome these limitations, we propose a novel deep learning approach to non-parametric estimation of the conditional survival functions using the generative adversarial networks leveraging self-consistent equations. The proposed method is model-free and does not require any parametric assumptions on the structure of the conditional survival function. We establish the convergence rate of our proposed estimator of the conditional survival function. In addition, we evaluate the performance of the proposed method through simulation studies and demonstrate its application on a real-world dataset."
+        ],
+        "12": [
+          "In high-dimensional statistics, the Lasso is a cornerstone method for simultaneous variable selection and parameter estimation. However, its reliance on the squared loss function renders it highly sensitive to outliers and heavy-tailed noise, potentially leading to unreliable model selection and biased estimates. To address this limitation, we introduce the Exponential Lasso, a novel robust method that integrates an exponential-type loss function within the Lasso framework. This loss function is designed to achieve a smooth trade-off between statistical efficiency under Gaussian noise and robustness against data contamination. Unlike other methods that cap the influence of large residuals, the exponential loss smoothly redescends, effectively downweighting the impact of extreme outliers while preserving near-quadratic behavior for small errors. We establish theoretical guarantees showing that the Exponential Lasso achieves strong statistical convergence rates, matching the classical Lasso under ideal conditions while maintaining its robustness in the presence of heavy-tailed contamination. Computationally, the estimator is optimized efficiently via a Majorization-Minimization (MM) algorithm that iteratively solves a series of weighted Lasso subproblems. Numerical experiments demonstrate that the proposed method is highly competitive, outperforming the classical Lasso in contaminated settings and maintaining strong performance even under Gaussian noise.   Our method is implemented in the \\texttt{R} package \\texttt{heavylasso} available on Github: https://github.com/tienmt/heavylasso",
+          "The Lasso is a prominent algorithm for variable selection. However, its instability in the presence of correlated variables in the high-dimensional setting is well-documented. Although previous research has attempted to address this issue by modifying the Lasso loss function, this paper introduces an approach that simplifies the data processed by Lasso. We propose that decorrelating variables before applying the Lasso improves the stability of variable selection regardless of the direction of correlation among predictors. Furthermore, we highlight that the irrepresentable condition, which ensures consistency for the Lasso, is satisfied after variable decorrelation under two assumptions. In addition, by noting that the instability of the Lasso is not limited to high-dimensional settings, we demonstrate the effectiveness of the proposed approach for low-dimensional data. Finally, we present empirical results that indicate the efficacy of the proposed method across different variable selection techniques, highlighting its potential for broader application. The DVS R package is developed to facilitate the implementation of the methodology proposed in this paper.",
+          "High-dimensional linear regression is a fundamental tool in modern statistics, particularly when the number of predictors exceeds the sample size. The classical Lasso, which relies on the squared loss, performs well under Gaussian noise assumptions but often deteriorates in the presence of heavy-tailed errors or outliers commonly encountered in real data applications such as genomics, finance, and signal processing. To address these challenges, we propose a novel robust regression method, termed Heavy Lasso, which incorporates a loss function inspired by the Student's t-distribution within a Lasso penalization framework. This loss retains the desirable quadratic behavior for small residuals while adaptively downweighting large deviations, thus enhancing robustness to heavy-tailed noise and outliers. Heavy Lasso enjoys computationally efficient by leveraging a data augmentation scheme and a soft-thresholding algorithm, which integrate seamlessly with classical Lasso solvers. Theoretically, we establish non-asymptotic bounds under both $\\ell_1$ and $\\ell_2 $ norms, by employing the framework of localized convexity, showing that the Heavy Lasso estimator achieves rates comparable to those of the Huber loss. Extensive numerical studies demonstrate Heavy Lasso's superior performance over classical Lasso and other robust variants, highlighting its effectiveness in challenging noisy settings. Our method is implemented in the R package heavylasso available on Github."
+        ]
+      }
+    }
+  }
+}
